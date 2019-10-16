@@ -92,6 +92,4 @@ desvcorrientes = np.array([desvcorr1, desvcorr2, desvcorr3, desvcorr4, desvcorr5
 print(voltajes)
 print(corrientes)
 print(desvcorrientes)
-plt.figure(figsize=(50,50))
 plt.errorbar(voltajes, corrientes, yerr=desvcorrientes)
-plt.show()
